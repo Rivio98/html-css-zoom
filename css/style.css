@@ -7,9 +7,10 @@
 /* layout */
 
 .container {
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
 }
+
 
 .content {
     position: relative;
@@ -32,17 +33,18 @@
 
 .col-15 {
     width: calc(100% / 7);
-    padding: 10px;
+    padding: 10px 5px;
 }
 
 .col-33 {
     width: calc(100% / 3);
+    display: flex;
 }
 
 /* style class */
 
 body {
-    background-color: #0E0E0E;
+    background-color: black;
 }
 
 .button {
@@ -54,6 +56,11 @@ body {
 
 .ft-white {
     color: #fff;
+}
+
+.bg-grey {
+    background-color: #222222;
+    padding: 20px;
 }
 
 img {
@@ -71,4 +78,16 @@ img {
     bottom: 3px;
     padding: 5px;
     background-color: #4a4a4aa2;
+}
+
+.microphone {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.icons {
+    font-size: 30px;
+    padding: 10px;
+
 }
