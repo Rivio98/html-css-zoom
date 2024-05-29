@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* layout */
+header {
+    background-color: #000000;
+    width: 100%;
+    height: 50px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-100 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.ft-white {
+    color: #fff;
+}
+
+.content {
+    margin-top: 10px;
+    margin-right: 5px;
+    padding: 5px 2px;
+    background-color: #4A4A4A;
+    border-radius: 5px;
+}
