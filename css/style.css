@@ -55,6 +55,10 @@ body {
     color: #fff;
 }
 
+.ft-green {
+    color: #4CC900;
+}
+
 .bg-grey {
     background-color: #222222;
     padding: 20px;
@@ -67,6 +71,14 @@ img {
 /* utilities */
 .mg-top {
     margin-top: 50px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mr-10 {
+    margin-right: 10px;
 }
 
 .username {
@@ -95,4 +107,16 @@ footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.icon {
+    text-align: center;
+    padding-left: 20px;
+}
+
+#end-meeting {
+    color: red;
+    border: none;
+    background-color: #4A4A4A;
+    padding: 40px 20px;
 }
